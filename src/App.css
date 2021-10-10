@@ -1,6 +1,43 @@
 .App {
   text-align: center;
+  margin: 0 auto;
 }
+
+.App-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+
+.App-controlSorting{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #1c87c9;
+}
+
+.App-controlSorting__text{
+  font-size: 25px;
+}
+
+.App-controlSorting__select{
+  margin-left: 20px;
+  width: 320px;
+  min-height: 40px;
+  border: 1px solid #999;
+  color: #1c87c9;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 4px 4px #ccc;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 8px;
+  letter-spacing: 3px;
+}
+
 
 .App-logo {
   height: 40vmin;

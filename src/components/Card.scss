@@ -1,0 +1,59 @@
+.Card{
+  margin: 10px;
+  background: #FFFEFB;
+  width: 300px;
+  min-height: 400px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.04), 0 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  transform: translateY(0);
+  transition: ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  &:hover{
+    transform: translateY(-10px);
+  }
+
+  .fa{
+    margin: 20px 0;
+    cursor: pointer;
+    width: 40px;
+  }
+
+  .fa-heart{
+    color: #FF8484;
+  }
+
+  .Card__img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Card__name{
+    margin: 10px;
+  }
+  .Card__desc{
+    text-indent: 20px;
+    text-align: left;
+  }
+
+  .Card__del{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border:none;
+    background:  #FF8484;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+      background: #49485E;
+    }
+  }
+}
